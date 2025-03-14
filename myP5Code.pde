@@ -58,6 +58,22 @@ text("⁉", x, 200);
 x += 60;
 }
 
+//while #2
+
+//horizontal ruler
+var x = 0;
+while(x < 400) { 
+text(x, x, 20);
+X+= 50; 
+}
+
+
+var y = 0;
+while(y <400) {
+text(y, 0, y);
+y+= 50; 
+
+
 
 //forloop
 setup = function() {
