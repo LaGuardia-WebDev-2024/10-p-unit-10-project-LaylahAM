@@ -3,21 +3,23 @@ setup = function() {
     background(190,198,240);
     
 };
-
-
+ 
+//broken
 var answer = 1;
-var theNumber=1
+var theNumber=1;
 
+ 
 draw = function(){
   background(100,100,100);
-
 
   fill(0, 255, 68); 
   if (mousePressed &&	 mouseY < 200) {
   fill(255, 0, 68);
   rect(0, 0, 400, 200); 
-  fill(0, 0, 0);  textSize(30);
-  ("Press me!", 145, 110);  }
+  fill(0, 0, 0);  
+  textSize(30);
+  //("Press me!", 145, 110);  
+  }
   
   
   fill(0, 0, 0);
@@ -33,18 +35,13 @@ draw = function(){
   
 
 
-  
+
   
 if(mousePressed){
 text("future", random(0,600), random(0,400));}
-};
 
 
-mouseClicked = function(){
-  answer = round(random(1, 5));
- 
- 
-//whileloophelp
+//whileloop
 
 var x = 0; 
 while(x < 400){ 
@@ -52,7 +49,9 @@ text("🍝", x, 340);
 x += 20;
 }
 
-x = 0;
+
+/*
+x= 0;
 while(x < 400){
 text("⁉", x, 200);
 x += 60;
@@ -72,7 +71,19 @@ var y = 0;
 while(y <400) {
 text(y, 0, y);
 y+= 50; 
+}
 
+/*
+
+
+
+};
+
+
+
+ 
+ 
+/*
 
 
 //forloop
@@ -92,3 +103,8 @@ text('🤑🤑🤑🤑🤑🤑', 50, i);
 }
 
 };
+*/
+
+mouseClicked = function(){
+  answer = round(random(1, 5));
+  };
