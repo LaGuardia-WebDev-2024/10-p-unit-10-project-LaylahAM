@@ -33,6 +33,11 @@ html{
   border: 1px solid black;
 }
 
+
+h1 {
+color: rgb(255, 0, 0);
+  }
+
 h2{
   color: black;
 }
@@ -44,3 +49,7 @@ h2{
 #end{
   text-align: right;
 }
+
+p {color: rgb(6089,28, 91); }
+ 
+ 
